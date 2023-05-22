@@ -152,12 +152,6 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "dio",
-      "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/dio-5.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.15"
-    },
-    {
       "name": "fake_async",
       "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
@@ -422,12 +416,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "pretty_dio_logger",
-      "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/pretty_dio_logger-1.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "process",
       "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/process-4.2.4",
       "packageUri": "lib/",
@@ -456,18 +444,6 @@
       "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/recase-4.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "retrofit",
-      "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/retrofit-4.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "retrofit_generator",
-      "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/retrofit_generator-7.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "shelf",
@@ -584,12 +560,6 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "tuple",
-      "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/tuple-2.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
       "name": "typed_data",
       "rootUri": "file:///Users/NSV/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
       "packageUri": "lib/",
@@ -650,7 +620,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-05-20T17:49:41.076737Z",
+  "generated": "2023-05-22T17:46:42.921076Z",
   "generator": "pub",
-  "generatorVersion": "3.0.0"
+  "generatorVersion": "3.0.1"
 }
