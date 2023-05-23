@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Program Valve',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-     onGenerateRoute: StackedRouter().onGenerateRoute,
+      onGenerateRoute: StackedRouter().onGenerateRoute,
       navigatorKey: StackedService.navigatorKey,
     );
   }

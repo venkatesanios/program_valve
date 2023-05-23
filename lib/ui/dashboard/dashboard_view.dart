@@ -12,12 +12,13 @@ class _DashboarViewState extends State<DashboarView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Column(
+        centerTitle: true,
+        title: const Column(
           children: [
-            const Text(('Targets'),
+            Text(('Targets'),
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.w900)),
-                const Text(('Ber - 1'),
+                Text(('Ber - 1'),
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 12, fontWeight: FontWeight.w900)),
           ],
@@ -25,7 +26,7 @@ class _DashboarViewState extends State<DashboarView> {
         automaticallyImplyLeading: true,
       ),
       drawer: Drawer(
-        backgroundColor: Color.fromARGB(255, 233, 215, 190),
+        backgroundColor: const Color.fromARGB(255, 233, 215, 190),
         child: ListView(
           children: const <Widget>[
             ListTile(
@@ -67,56 +68,109 @@ class _DashboarViewState extends State<DashboarView> {
           ],
         ),
       ),
-      body: ListView(padding: EdgeInsets.all(12), children: const [
-        ListTile(
-          title: Text(
-            'Program1',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
+      body: ListView(
+        padding: const EdgeInsets.all(4.0),
+        children: [
+          GestureDetector(
+            onTap: () {
+           
+              print("on tap click");
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8.0),
+                border: Border.all(
+                    color: Colors.grey, width: 1.0, style: BorderStyle.solid),
+              ),
+              color: Colors.blueGrey[150],
+              child: Column(
+                children: [
+                  Container(
+                    child: const Row(
+                      children: [
+                        Column(children: [
+                          Text('1 Chilly',
+                              style: TextStyle(
+                                fontSize: 24.0,
+                                color: Color.fromARGB(255, 108, 158, 209),
+                                fontWeight: FontWeight.bold,
+                                fontStyle: FontStyle.normal,
+                              )),
+                          Text(' Not Ready',
+                              style: TextStyle(
+                                fontSize: 18.0,
+                                color: Colors.grey,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: FontStyle.normal,
+                              ))
+                        ]),
+                      ],
+                    ),
+                  ),
+                  const Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Column(children: [
+                        Text(' Last Run: unknown',
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.normal,
+                              fontStyle: FontStyle.normal,
+                            )),
+                        Text(' Next Run: 10 days ago ',
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.normal,
+                              fontStyle: FontStyle.normal,
+                            ))
+                      ]),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ),
-          textColor: Colors.white,
-          tileColor: Colors.teal,
-        ),
-        Divider(
-          height: 10,
-        ),
-        ListTile(
-          title: Text(
-            'Program2',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
+          const SizedBox(
+            height: 4.0,
           ),
-          textColor: Colors.white,
-          tileColor: Colors.teal,
-        ),
-        Divider(
-          height: 10,
-        ),
-        ListTile(
-          title: Text(
-            'Program3',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
-          ),
-          textColor: Colors.white,
-          tileColor: Colors.teal,
-        ),
-        Divider(
-          height: 10,
-        ),
-        ListTile(
-          title: Text(
-            'Program4',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
-          ),
-          textColor: Colors.white,
-          tileColor: Colors.teal,
-        ),
-        Divider(
-          height: 10,
-        ),
-      ]),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              border: Border.all(
+                  color: Colors.grey, width: 1.0, style: BorderStyle.solid),
+            ),
+            color: Colors.blueGrey[150],
+            child: Column(
+              children: [
+                Container(
+                  child: const Row(
+                    children: [
+                      Column(children: [
+                        Text('2 Chilly 2',
+                            style: TextStyle(
+                              fontSize: 24.0,
+                              color: Color.fromARGB(255, 108, 158, 209),
+                              fontWeight: FontWeight.bold,
+                              fontStyle: FontStyle.normal,
+                            )),
+                        Text(' Not Ready',
+                            style: TextStyle(
+                              fontSize: 18.0,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.bold,
+                              fontStyle: FontStyle.normal,
+                            ))
+                      ]),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
     );
   }
 }

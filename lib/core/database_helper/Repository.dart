@@ -1,5 +1,5 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:program_valve/core/database_helper/database_connection';
+import 'package:program_valve/core/database_helper/database_connection.dart';
 class Repository {
   late DatabaseConnection _databaseConnection;
   Repository() {
@@ -35,5 +35,6 @@ class Repository {
   deleteDataById(table, itemId) async {
     var connection = await database;
     return await connection?.rawDelete("delete from $table where id=$itemId");
-  }
+
+}
 }
