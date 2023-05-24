@@ -5,6 +5,7 @@ import 'package:stacked/stacked_annotations.dart';
 @StackedApp(routes: [
 MaterialRoute(page: DashboarView,initial: true),
 MaterialRoute(page: ValveSettingsView),
+//MaterialRoute(page: DashboarView()),
 ])
 
 

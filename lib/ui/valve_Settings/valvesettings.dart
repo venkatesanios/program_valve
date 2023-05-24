@@ -8,8 +8,11 @@ class ValveSettingsView extends StatefulWidget {
 }
 
 class _ValveSettingsState extends State<ValveSettingsView> {
+  final List<String> settnamelist = ["Set 1"," Set 2","Set 3"," Set 4","Set 5"," Set 6"];
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return ListView.builder(itemCount: settnamelist.length,itemBuilder: (context, index){
+      return ListTile(title: Text(settnamelist[index]),);
+    },);
   }
 }
