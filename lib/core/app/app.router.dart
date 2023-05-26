@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart' as _i4;
 import 'package:flutter/material.dart';
 import 'package:program_valve/ui/dashboard/dashboard_view.dart' as _i2;
-import 'package:program_valve/ui/valve_Settings/valvesettings.dart' as _i3;
+import 'package:program_valve/ui/valve_Settings/valvesettings_view.dart' as _i3;
 import 'package:stacked/stacked.dart' as _i1;
 import 'package:stacked_services/stacked_services.dart' as _i5;
 

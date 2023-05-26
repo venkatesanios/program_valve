@@ -11,7 +11,7 @@ class Valve{
 
   ValveMap()
   {
-    var mapping= Map<String,dynamic>();
+    var mapping= <String,dynamic>{};
     mapping['id']=id;
     mapping['programid']=programid;
     mapping['programname']=programname;

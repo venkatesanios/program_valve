@@ -1,6 +1,5 @@
 import 'package:program_valve/model/valve_model.dart';
 import '../core/database_helper/Repository.dart';
- import 'package:program_valve/model/valve_model.dart';
 class ValveService{
   late Repository _repository;
   ValveService()

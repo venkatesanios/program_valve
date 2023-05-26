@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:program_valve/core/app/app.router.dart';
 import 'package:program_valve/ui/dashboard/dashboard_viewmodel.dart';
 import 'package:program_valve/ui/dashboard/widgets/drawer_widget.dart';
 import 'package:program_valve/ui/dashboard/widgets/program_item_widget.dart';
@@ -35,7 +34,7 @@ class _DashboarViewState extends State<DashboarView> {
               ),
               automaticallyImplyLeading: true,
             ),
-            drawer: DraweWidget(),
+            drawer: const DraweWidget(),
             body: ListView.separated(
               padding: const EdgeInsets.all(20),
               itemBuilder: (context, index) => ProgramItemWidget(programName: viewModel.programNameList[index],),

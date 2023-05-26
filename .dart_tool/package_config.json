@@ -177,7 +177,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/NSV/Documents/downloadpackage/flutter/packages/flutter",
+      "rootUri": "file:///Users/NSV/Documents/SDK/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -201,13 +201,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/NSV/Documents/downloadpackage/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/NSV/Documents/SDK/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/NSV/Documents/downloadpackage/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/NSV/Documents/SDK/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -459,7 +459,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/NSV/Documents/downloadpackage/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/NSV/Documents/SDK/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -620,7 +620,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-05-24T14:57:09.779894Z",
+  "generated": "2023-05-25T15:20:00.577221Z",
   "generator": "pub",
-  "generatorVersion": "3.0.1"
+  "generatorVersion": "3.0.2"
 }
